@@ -14,9 +14,8 @@ def post_new_user(body):
                          headers=data.headers)
 
 
-# # Вызов функции post_new_user с телом запроса для создания нового пользователя из модуля data
-# response = post_new_user(data.user_body)
-#
-# # Вывод HTTP-статус кода ответа на запрос
-# # Код состояния указывает на результат обработки запроса сервером
-# print(response.status_code)
+def post_new_client_kit(body, headers):
+    return requests.post(url=configuration.URL_SERVICE + configuration.CREATE_USERS_KIT_PATH,
+                         json=body,
+                         headers=headers)
+
