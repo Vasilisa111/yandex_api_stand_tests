@@ -4,4 +4,4 @@
 CREATE_USER_PATH = "/api/v1/users/"
 CREATE_USERS_KIT_PATH = "/api/v1/kits/"
 
-URL_SERVICE="https://e1ef405e-c764-4f30-8129-508d2f303cb3.serverhub.praktikum-services.ru"
+URL_SERVICE="https://6ea74005-d23b-4952-80f9-b6e58300562e.serverhub.praktikum-services.ru"
